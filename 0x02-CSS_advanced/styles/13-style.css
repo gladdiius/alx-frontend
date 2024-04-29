@@ -20,7 +20,7 @@
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color:var(--color-black);
+    --section-title-color: var(--color-black);
 }
 
 html{
@@ -42,20 +42,20 @@ a {
 }
 
 a[href]:link {
-   font-style: italic;
+  font-style: italic;
 }
   
 a[href]:visited {
-   font-style: italic;
+  font-style: italic;
 }
   
 a[href]:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
   
 a[href]:active {
-    background-color: var(--color-light-grey);
- }
+   background-color: var(--color-light-grey);
+}
   
 .visually-hidden {
     display: none;
@@ -75,7 +75,7 @@ a[href]:active {
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
-}
+}  
 
 .section-tagline {
     color: var(--color-primary);
