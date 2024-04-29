@@ -46,7 +46,6 @@ a {
 }
 
 .section-header{
-    display: flex;
     text-align: var(--section-header-align);
 }
 
