@@ -36,20 +36,20 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href]:not(:empty) {
+a:not(:empty) {
     color: var(--text-color);
     text-decoration: none;
 }
   
-a[href]:not(:empty):visited {
+a:not(:empty):visited {
    font-style: italic;
 }
   
-a[href]:not(:empty):hover {
+a:not(:empty):hover {
    text-decoration: underline;
 }
   
-a[href]:not(:empty):active {
+a:not(:empty):active {
    background-color: var(--color-light-grey);
 }
   
