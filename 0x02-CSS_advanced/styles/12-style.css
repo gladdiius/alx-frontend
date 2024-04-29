@@ -27,6 +27,7 @@ html{
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
+
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -35,22 +36,27 @@ body {
     line-height: var(--line-height-base);
 }
 
-a[href]:not(:empty) {
+a {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a[href]:not(:empty):visited {
-    font-style: italic;
+a[href]:link {
+   font-style: italic;
 }
-
-a[href]:not(:empty):hover {
-    text-decoration: underline;
+  
+a[href]:visited {
+   font-style: italic;
 }
-
-a[href]:not(:empty):active {
+  
+a[href]:hover {
+   text-decoration: underline;
+}
+  
+a[href]:active {
     background-color: var(--color-light-grey);
-}
+ }
+  
 .visually-hidden {
     display: none;
 }
