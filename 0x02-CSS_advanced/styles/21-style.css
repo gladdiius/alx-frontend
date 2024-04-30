@@ -195,7 +195,7 @@ ul.row{
     clear: both;
 }
 
-.section-body .row [class^="col-"] {
+.row [class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
