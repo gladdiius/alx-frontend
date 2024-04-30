@@ -37,7 +37,7 @@
     --nav-item-display: inline-block;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    --section-tagline: var(var(--section-tagline-margin));
+    --section-tagline: var(--section-tagline-margin);
 }
 
 *,
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-ul[class="row"]{
+ul.row{
     margin: 0;
     padding: 0;
     list-style: none;   
