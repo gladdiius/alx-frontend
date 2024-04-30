@@ -195,13 +195,13 @@ ul.row{
     clear: both;
 }
 
-.section-body ul.row [class^="col-"] {
+[class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
 
-.section-body ul.row .col-1-3,
-.section-body ul.row .col-1-2 {
+.col-1-3,
+.col-1-2 {
     float: none;
     padding: 0;
 }
