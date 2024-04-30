@@ -197,7 +197,7 @@ ul.row{
 
 .section-body ul.row [class^="col-"] {
     float: left;
-    padding: calc(0.5 * var(--root-padding))
+    padding: 0.5rem;
 }
 
 .section-body ul.row .col-1-3,
