@@ -32,7 +32,7 @@
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-letter-spacing: 4%;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-display: inline-block;
     --nav-item-link-hover: var(--color-primary);
@@ -130,11 +130,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--footer-padding);
 }
 
-.navbar-menu {
+.navbar-menu{
     float: right;
 }
 
-.navbar-menu .nav {
+.nav{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -152,12 +152,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding-top: 0.5rem; 
-    padding-bottom: 0.5rem; 
-    padding-left: 1rem; 
-    padding-right: 1rem; 
 }
 
-.nav .nav-item .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
