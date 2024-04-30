@@ -189,7 +189,7 @@ ul.row{
     text-align: right;
 }
 
-ul.row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
